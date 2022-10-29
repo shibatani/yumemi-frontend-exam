@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/ban-types */
 import { theme } from 'themes'
 import type { ResponsiveProp, Responsive } from 'types'
 
@@ -97,7 +99,7 @@ const LINE_HEIGHT_KEYS = new Set(['line-height'])
  * @param theme AppTheme
  * @returns CSSプロパティの値
  */
- function toThemeValueIfNeeded<T>(propKey: string, value: T, theme?: AppTheme) {
+function toThemeValueIfNeeded<T>(propKey: string, value: T, theme?: AppTheme) {
   if (
     theme &&
     theme.space &&

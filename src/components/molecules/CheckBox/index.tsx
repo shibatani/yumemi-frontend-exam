@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {
   CheckBoxOutlineBlankIcon,
   CheckBoxIcon,
-} from 'components/IconButton/index'
+} from 'components/atoms/IconButton/index'
 import Text from 'components/atoms/Text'
 import Flex from 'components/layout/Flex'
 
